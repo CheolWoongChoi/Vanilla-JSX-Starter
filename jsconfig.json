@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "NodeNext",
+    "jsx": "react",
+    "jsxFactory": "createElement",
+    "checkJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx", "src/types/*.d.ts"]
+}
